@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mahmood Ahmad - Computer Science Student & Web Developer">
+    <meta name="keywords" content="portfolio, web development, AI, machine learning, python">
+    <title>Mahmood Ahmad - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>MA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mahmood Ahmad</h1>
+            <p>Current Computer Science Student Attending The Univeristy Of Houston</p>
+            <div class="social-icons">
+                <a href="https://github.com/MahmoodCS" target="_blank" aria-label="GitHub" data-tooltip="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mahmood-ahmad-59141424b/" target="_blank" aria-label="LinkedIn" data-tooltip="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about hidden">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <img src="images/profile.png" alt="Mahmood Ahmad" class="profile-img">
+                <div class="about-text">
+                    <p>
+                        Hi, I'm Mahmood Ahmad, a Computer Science student passionate about AI/ML and web development. 
+                        I specialize in building intelligent systems using Python and modern web technologies. Currently pursuing 
+                        my degree while working on innovative projects that bridge AI with practical applications.
+                    </p>
+                    <div class="skills">
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>Node.js</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio hidden">
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="images/project1.jpg" alt="Stock Prediction">
+                    <div class="project-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="project-info">
+                        <h3>Stock Prediction Model</h3>
+                        <p>Machine learning model for stock market forecasting using LSTM networks</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project2.jpg" alt="AI Chatbot">
+                    <div class="project-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Chatbot</h3>
+                        <p>Natural language processing chatbot using Python and TensorFlow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume hidden">
+        <div class="section-container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p>Download my resume to view my full experience and qualifications</p>
+                <a href="docs/resume.pdf" download class="resume-btn">
+                    Download CV <i class="fas fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact hidden">
+        <div class="section-container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <textarea placeholder="Message" rows="6" required></textarea>
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2024 Mahmood Ahmad. All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>github
